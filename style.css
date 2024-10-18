@@ -1,0 +1,358 @@
+.container{
+    max-width: 1140px !important;
+    padding: 0 20px !important;
+    margin: 0 auto;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
+.nav-item{
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.2em;
+color: #333333;
+padding: 20px;
+}
+li.nav-item.active::after {
+    content: '';
+    border-top: 2px solid #333333;
+    width: 68px;
+    position: absolute;
+    top: 25px;
+}
+li.nav-item.active::before {
+    content: '';
+    border-bottom: 2px solid #333333;
+    width: 68px;
+    position: absolute;
+    bottom: 25px;
+}
+.slider{
+    padding: 50px 0 80px 0;
+}
+.slider img{
+    height: 600px;
+}
+
+.slider-text {
+        align-content: center;
+        padding: 50px;
+    }
+.slider-text h1{
+font-family: Roboto;
+font-size: 64px;
+font-weight: 300;
+line-height: 64px;
+text-align: left;
+color: #BDBDBD;
+}
+.slider-text h2{
+font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 64px;
+text-align: left;
+color: #333333;
+padding-bottom: 20px;
+}
+.slider .slider-btn{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    background-color: #fff;
+    border: none;
+    color: #333333;
+    border-radius: 0;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.carousel-control-next, .carousel-control-prev{
+    position:  relative !important;
+    background-color: #F2F2F2 !important;
+    display: inline !important;
+    width: 40px !important;
+}
+.about{
+    background: #FBFBFB;
+    padding: 20px 50px 0  50px;
+    margin-bottom: 50px;
+}
+.about h1{
+font-family: Roboto;
+font-size: 64px;
+font-weight: 300;
+line-height: 64px;
+text-align: left;
+color: #BDBDBD;
+padding-bottom: 10px;
+}
+.about p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 25px;
+text-align: left;
+color: #000;
+width: 360px;
+padding-bottom: 20px;
+}
+.about img.img1 {
+    padding-bottom: 20px;
+    height: 265px;  
+}
+.about img.img2{
+    height: 140px;
+    width: 248px;
+}
+.about img.img3{
+    height: 345px;
+}
+.about .images{
+    padding-right: 20px;
+    height: 390px;
+    width: 260px;
+}
+.about .images1{
+    align-content: center;
+}
+.about .about-us{
+    padding-left: 50px;
+}
+.about-us button{
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.2em;
+text-align: left;
+color: #333333;
+background-color: #fff;
+border: none;
+padding: 20px;
+border-radius: 0;
+}
+
+.focus{
+    padding: 50px 0;
+}
+.focus h1{
+font-family: Roboto;
+font-size: 64px;
+font-weight: 300;
+line-height: 64px;
+text-align: left;
+color: #BDBDBD;
+padding-bottom: 30px;
+}
+.focus .mission{
+    display: flex;
+}
+.focus .mission p{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #333333;
+    padding-left: 30px;
+    width: 290px;
+}
+  .focus .mission h1{
+    font-family: Roboto;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 142.38px;
+    text-align: left;
+    color: #F2F2F2;
+}
+.projects{
+    padding: 50px 0;
+}
+.projects h1{
+    font-family: Roboto;
+    font-size: 64;
+    font-weight: 300;
+    line-height: 142.38px;
+    text-align: left;
+    color: #BDBDBD;
+}
+.projects img{
+    width: 255px;
+}
+.contact{
+    margin-bottom: 50px;
+}
+.contact h1{
+font-family: Roboto;
+font-size: 64px;
+font-weight: 300;
+line-height: 64px;
+text-align: left;
+color: #BDBDBD;
+padding-bottom: 20px;
+}
+.contact .form-control{
+    background-color: #F3F3F3;
+    padding: 10px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    border: none;
+}
+.contact textarea,input.form-control::placeholder{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.41px;
+letter-spacing: 0.04em;
+text-align: left;
+}
+.contact textarea{
+    margin-bottom: 60px !important;
+    height: 115px;
+}
+.contact button.btn{
+    background-color: #333333;
+    padding: 15px 20px;    
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    border: none;
+    border-radius: 0;
+}
+.contact img{
+    width: 667px;
+}
+i.bi.bi-arrow-right {
+    font-size: 15px;
+    padding: 0 10px;
+}
+.footer{
+    background-color: #2C2C2C;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+.footer-ul{
+    list-style: none;
+}
+
+.footer .nav-item-footer{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #ffff;
+padding: 5px;
+}
+.footer .nav-item-footer i{
+    padding-right: 10px;
+}
+.footer .navbar-collapse{
+    display: block !important;
+}
+.footer .social-media{
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+}
+.footer .social-media li{
+    padding: 20px;
+}
+.footer .navbar-collapse p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    color: #fff;
+    padding: 0 40px 0px;
+}
+.footer .location li{
+    padding-bottom: 26px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .about{
+        padding: 20px; !important
+    }
+    .about .about-us{
+        padding-left:70px !important;
+    }
+    .focus .mission p{
+        font-size: 20px;
+    }
+   
+}
+@media only screen and (min-width: 768px) {
+.contact img{
+    width: -webkit-fill-available;
+}
+.contact textarea {
+    margin-bottom: 40px ;
+    height: 85px;
+}
+.focus .mission p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer .navbar-collapse{
+    padding-top: 0 !important;
+}
+.about .about-us{
+    padding-top: 50px !important;
+    padding-left: 30px ;
+}
+.footer .logo img{
+    width: 50px;
+}
+}
+
+@media only screen and (min-width: 425px) {
+    .about{
+        padding: 20px;
+    }
+    .about .about-us{
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .focus .mission p{
+        font-size: 15px;
+    }
+    .focus .mission h1 {
+        font-size: 140px;
+        line-height: 116.38px;
+    }
+    .focus{
+        padding: 30px 0;
+    }
+    .footer .social-media{
+        padding: 0;
+    }
+    .footer-ul{
+        padding: 0;
+    }
+    .footer .navbar-collapse{
+        padding-top: 30px;
+    }
+    .footer .navbar-collapse p{
+        padding: 0;
+    }
+    .contact img {
+        width: -webkit-fill-available;
+    }
+    .projects{
+        padding: 30px 0;
+    }
+    }
